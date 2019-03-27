@@ -1,0 +1,991 @@
+21:03:09.814 INFO [n.f.c.m.FloodlightModuleLoader:main] Loading default modules
+21:03:10.155 INFO [n.f.c.i.Controller:main] Controller role set to MASTER
+21:03:10.158 INFO [n.f.c.i.Controller:main] Flush switches on reconnect -- Disabled
+mb_capacity: 
+6301.419648978746 
+7222.319403635629 
+6108.7061464511025 
+7976.601718414839 
+
+6018.351546797284 
+8891.114391069623 
+8819.59616634573 
+8841.584752989582 
+
+7461.262124650523 
+8741.888628044042 
+6478.018654617237 
+7107.007675162716 
+
+6347.901264097973 
+8311.607640237533 
+7979.67812608026 
+6470.240671709538 
+
+0.0 
+0.0 
+0.0 
+0.0 
+
+6419.288048711253 
+8084.843938807476 
+8415.683314421141 
+6015.0755279773575 
+
+6070.254195212623 
+8115.029862911525 
+6825.089848714842 
+6226.163396740919 
+
+7731.30078412283 
+6614.740637275684 
+7870.091431894998 
+6554.121270833846 
+
+8050.579510377795 
+7458.778746935196 
+7462.545076328384 
+6379.724978230924 
+
+6736.279660743887 
+7183.562718882666 
+6652.806374723054 
+7296.020639680617 
+
+0.0 
+0.0 
+0.0 
+0.0 
+
+fid_factors: {1=[0.2, -0.3, 0.1, -0.2]}
+fid_factors: {1=[0.2, -0.3, 0.1, -0.2], 2=[0.2, -0.3, 0.1, -0.2]}
+fid_factors: {1=[0.2, -0.3, 0.1, -0.2], 2=[0.2, -0.3, 0.1, -0.2], 3=[0.2, -0.3, 0.1, -0.2]}
+fid_factors: {1=[0.2, -0.3, 0.1, -0.2], 2=[0.2, -0.3, 0.1, -0.2], 3=[0.2, -0.3, 0.1, -0.2], 4=[0.2, -0.3, 0.1, -0.2]}
+flowid : 1 fid_dag: {0=[], 1=[], 2=[], 3=[]}
+flowid : 2 fid_dag: {0=[1], 1=[], 2=[3], 3=[]}
+flowid : 3 fid_dag: {0=[], 1=[2], 2=[3], 3=[]}
+flowid : 4 fid_dag: {0=[1, 2], 1=[3], 2=[3], 3=[]}
+key:1 value map:{0=[], 1=[], 2=[], 3=[]}
+key:2 value map:{0=[1], 1=[], 2=[3], 3=[]}
+key:3 value map:{0=[], 1=[2], 2=[3], 3=[]}
+key:4 value map:{0=[1, 2], 1=[3], 2=[3], 3=[]}
+fid_ip: {1={10.0.1.5=10.0.8.37}, 2={10.0.1.6=10.0.8.38}, 3={10.0.11.51=10.0.2.11}, 4={10.0.11.52=10.0.2.12}}
+fid_tran: {1={1000.0=806.4}, 2={1000.0=806.4}, 3={1000.0=806.4}, 4={1000.0=806.4}}
+21:03:11.894 INFO [n.f.l.i.LinkDiscoveryManager:main] Setting autoportfast feature to OFF
+21:03:12.251 INFO [o.s.s.i.c.FallbackCCProvider:main] Cluster not yet configured; using fallback local configuration
+21:03:12.252 INFO [o.s.s.i.SyncManager:main] [32767] Updating sync configuration ClusterConfig [allNodes={32767=Node [hostname=localhost, port=6642, nodeId=32767, domainId=32767]}, authScheme=CHALLENGE_RESPONSE, keyStorePath=/etc/floodlight/auth_credentials.jceks, keyStorePassword is unset]
+21:03:12.308 INFO [o.s.s.i.r.RPCService:main] Listening for internal floodlight RPC on localhost/127.0.0.1:6642
+21:03:12.678 INFO [n.f.c.i.Controller:main] Listening for switch connections on 0.0.0.0/0.0.0.0:6633
+21:03:15.085 INFO [n.f.j.JythonServer:debugserver-main] Starting DebugServer on :6655
+21:03:47.088 INFO [n.f.c.i.OFChannelHandler:New I/O server worker #2-1] New switch connection from /192.168.56.101:38935
+21:03:47.108 INFO [n.f.c.i.OFChannelHandler:New I/O server worker #2-1] Disconnected switch [/192.168.56.101:38935 DPID[?]]
+21:04:20.192 INFO [n.f.c.i.OFChannelHandler:New I/O server worker #2-2] New switch connection from /192.168.56.101:38936
+21:04:20.238 INFO [n.f.c.i.OFChannelHandler:New I/O server worker #2-2] Switch OFSwitchBase [/192.168.56.101:38936 DPID[00:00:00:00:00:00:00:01]] bound to class class net.floodlightcontroller.core.internal.OFSwitchImpl, writeThrottle=false, description Switch Desc - Vendor: Nicira, Inc.  Model: Open vSwitch  Make: None  Version: 2.0.2  S/N: None
+21:04:20.243 INFO [n.f.c.OFSwitchBase:New I/O server worker #2-2] Clearing all flows on switch OFSwitchBase [/192.168.56.101:38936 DPID[00:00:00:00:00:00:00:01]]
+21:04:20.246 WARN [n.f.c.i.C.s.notification:main] Switch 00:00:00:00:00:00:00:01 connected.
+21:04:20.938 INFO [n.f.c.i.OFChannelHandler:New I/O server worker #2-3] New switch connection from /192.168.56.101:38937
+21:04:20.974 INFO [n.f.c.i.OFChannelHandler:New I/O server worker #2-3] Switch OFSwitchBase [/192.168.56.101:38937 DPID[00:00:00:00:00:00:00:02]] bound to class class net.floodlightcontroller.core.internal.OFSwitchImpl, writeThrottle=false, description Switch Desc - Vendor: Nicira, Inc.  Model: Open vSwitch  Make: None  Version: 2.0.2  S/N: None
+21:04:20.976 INFO [n.f.c.OFSwitchBase:New I/O server worker #2-3] Clearing all flows on switch OFSwitchBase [/192.168.56.101:38937 DPID[00:00:00:00:00:00:00:02]]
+21:04:20.977 WARN [n.f.c.i.C.s.notification:main] Switch 00:00:00:00:00:00:00:02 connected.
+21:04:20.991 INFO [n.f.l.i.LinkDiscoveryManager:New I/O server worker #2-2] Inter-switch link detected: Link [src=00:00:00:00:00:00:00:02 outPort=7, dst=00:00:00:00:00:00:00:01, inPort=7]
+21:04:20.991 WARN [n.f.l.i.L.s.notification:New I/O server worker #2-2] Link added: Link [src=00:00:00:00:00:00:00:02 outPort=7, dst=00:00:00:00:00:00:00:01, inPort=7]
+21:04:20.998 INFO [n.f.l.i.LinkDiscoveryManager:New I/O server worker #2-3] Inter-switch link detected: Link [src=00:00:00:00:00:00:00:01 outPort=7, dst=00:00:00:00:00:00:00:02, inPort=7]
+21:04:20.998 WARN [n.f.l.i.L.s.notification:New I/O server worker #2-3] Link added: Link [src=00:00:00:00:00:00:00:01 outPort=7, dst=00:00:00:00:00:00:00:02, inPort=7]
+21:04:21.676 INFO [n.f.c.i.OFChannelHandler:New I/O server worker #2-4] New switch connection from /192.168.56.101:38938
+21:04:21.749 INFO [n.f.c.i.OFChannelHandler:New I/O server worker #2-4] Switch OFSwitchBase [/192.168.56.101:38938 DPID[00:00:00:00:00:00:00:03]] bound to class class net.floodlightcontroller.core.internal.OFSwitchImpl, writeThrottle=false, description Switch Desc - Vendor: Nicira, Inc.  Model: Open vSwitch  Make: None  Version: 2.0.2  S/N: None
+21:04:21.750 INFO [n.f.c.OFSwitchBase:New I/O server worker #2-4] Clearing all flows on switch OFSwitchBase [/192.168.56.101:38938 DPID[00:00:00:00:00:00:00:03]]
+21:04:21.751 WARN [n.f.c.i.C.s.notification:main] Switch 00:00:00:00:00:00:00:03 connected.
+21:04:21.759 INFO [n.f.l.i.LinkDiscoveryManager:New I/O server worker #2-3] Inter-switch link detected: Link [src=00:00:00:00:00:00:00:03 outPort=5, dst=00:00:00:00:00:00:00:02, inPort=8]
+21:04:21.759 WARN [n.f.l.i.L.s.notification:New I/O server worker #2-3] Link added: Link [src=00:00:00:00:00:00:00:03 outPort=5, dst=00:00:00:00:00:00:00:02, inPort=8]
+21:04:21.761 INFO [n.f.l.i.LinkDiscoveryManager:New I/O server worker #2-4] Inter-switch link detected: Link [src=00:00:00:00:00:00:00:02 outPort=8, dst=00:00:00:00:00:00:00:03, inPort=5]
+21:04:21.761 WARN [n.f.l.i.L.s.notification:New I/O server worker #2-4] Link added: Link [src=00:00:00:00:00:00:00:02 outPort=8, dst=00:00:00:00:00:00:00:03, inPort=5]
+21:04:22.355 INFO [n.f.c.i.OFChannelHandler:New I/O server worker #2-1] New switch connection from /192.168.56.101:38939
+21:04:22.382 INFO [n.f.c.i.OFChannelHandler:New I/O server worker #2-1] Switch OFSwitchBase [/192.168.56.101:38939 DPID[00:00:00:00:00:00:00:04]] bound to class class net.floodlightcontroller.core.internal.OFSwitchImpl, writeThrottle=false, description Switch Desc - Vendor: Nicira, Inc.  Model: Open vSwitch  Make: None  Version: 2.0.2  S/N: None
+21:04:22.383 INFO [n.f.c.OFSwitchBase:New I/O server worker #2-1] Clearing all flows on switch OFSwitchBase [/192.168.56.101:38939 DPID[00:00:00:00:00:00:00:04]]
+21:04:22.383 WARN [n.f.c.i.C.s.notification:main] Switch 00:00:00:00:00:00:00:04 connected.
+21:04:22.385 INFO [n.f.l.i.LinkDiscoveryManager:New I/O server worker #2-4] Inter-switch link detected: Link [src=00:00:00:00:00:00:00:04 outPort=5, dst=00:00:00:00:00:00:00:03, inPort=6]
+21:04:22.385 WARN [n.f.l.i.L.s.notification:New I/O server worker #2-4] Link added: Link [src=00:00:00:00:00:00:00:04 outPort=5, dst=00:00:00:00:00:00:00:03, inPort=6]
+21:04:22.387 INFO [n.f.l.i.LinkDiscoveryManager:New I/O server worker #2-1] Inter-switch link detected: Link [src=00:00:00:00:00:00:00:03 outPort=6, dst=00:00:00:00:00:00:00:04, inPort=5]
+21:04:22.387 WARN [n.f.l.i.L.s.notification:New I/O server worker #2-1] Link added: Link [src=00:00:00:00:00:00:00:03 outPort=6, dst=00:00:00:00:00:00:00:04, inPort=5]
+21:04:23.016 INFO [n.f.c.i.OFChannelHandler:New I/O server worker #2-2] New switch connection from /192.168.56.101:38940
+21:04:23.045 INFO [n.f.c.i.OFChannelHandler:New I/O server worker #2-2] Switch OFSwitchBase [/192.168.56.101:38940 DPID[00:00:00:00:00:00:00:05]] bound to class class net.floodlightcontroller.core.internal.OFSwitchImpl, writeThrottle=false, description Switch Desc - Vendor: Nicira, Inc.  Model: Open vSwitch  Make: None  Version: 2.0.2  S/N: None
+21:04:23.046 INFO [n.f.c.OFSwitchBase:New I/O server worker #2-2] Clearing all flows on switch OFSwitchBase [/192.168.56.101:38940 DPID[00:00:00:00:00:00:00:05]]
+21:04:23.046 WARN [n.f.c.i.C.s.notification:main] Switch 00:00:00:00:00:00:00:05 connected.
+21:04:23.052 INFO [n.f.l.i.LinkDiscoveryManager:New I/O server worker #2-1] Inter-switch link detected: Link [src=00:00:00:00:00:00:00:05 outPort=6, dst=00:00:00:00:00:00:00:04, inPort=6]
+21:04:23.052 WARN [n.f.l.i.L.s.notification:New I/O server worker #2-1] Link added: Link [src=00:00:00:00:00:00:00:05 outPort=6, dst=00:00:00:00:00:00:00:04, inPort=6]
+21:04:23.052 INFO [n.f.l.i.LinkDiscoveryManager:New I/O server worker #2-2] Inter-switch link detected: Link [src=00:00:00:00:00:00:00:05 outPort=5, dst=00:00:00:00:00:00:00:01, inPort=8]
+21:04:23.054 WARN [n.f.l.i.L.s.notification:New I/O server worker #2-2] Link added: Link [src=00:00:00:00:00:00:00:05 outPort=5, dst=00:00:00:00:00:00:00:01, inPort=8]
+21:04:23.063 INFO [n.f.l.i.LinkDiscoveryManager:New I/O server worker #2-2] Inter-switch link detected: Link [src=00:00:00:00:00:00:00:04 outPort=6, dst=00:00:00:00:00:00:00:05, inPort=6]
+21:04:23.063 WARN [n.f.l.i.L.s.notification:New I/O server worker #2-2] Link added: Link [src=00:00:00:00:00:00:00:04 outPort=6, dst=00:00:00:00:00:00:00:05, inPort=6]
+21:04:23.067 INFO [n.f.l.i.LinkDiscoveryManager:New I/O server worker #2-2] Inter-switch link detected: Link [src=00:00:00:00:00:00:00:01 outPort=8, dst=00:00:00:00:00:00:00:05, inPort=5]
+21:04:23.067 WARN [n.f.l.i.L.s.notification:New I/O server worker #2-2] Link added: Link [src=00:00:00:00:00:00:00:01 outPort=8, dst=00:00:00:00:00:00:00:05, inPort=5]
+21:04:23.653 INFO [n.f.c.i.OFChannelHandler:New I/O server worker #2-3] New switch connection from /192.168.56.101:38941
+21:04:23.682 INFO [n.f.c.i.OFChannelHandler:New I/O server worker #2-3] Switch OFSwitchBase [/192.168.56.101:38941 DPID[00:00:00:00:00:00:00:06]] bound to class class net.floodlightcontroller.core.internal.OFSwitchImpl, writeThrottle=false, description Switch Desc - Vendor: Nicira, Inc.  Model: Open vSwitch  Make: None  Version: 2.0.2  S/N: None
+21:04:23.685 INFO [n.f.c.OFSwitchBase:New I/O server worker #2-3] Clearing all flows on switch OFSwitchBase [/192.168.56.101:38941 DPID[00:00:00:00:00:00:00:06]]
+21:04:23.686 WARN [n.f.c.i.C.s.notification:main] Switch 00:00:00:00:00:00:00:06 connected.
+21:04:23.690 INFO [n.f.l.i.LinkDiscoveryManager:New I/O server worker #2-1] Inter-switch link detected: Link [src=00:00:00:00:00:00:00:06 outPort=5, dst=00:00:00:00:00:00:00:04, inPort=7]
+21:04:23.691 WARN [n.f.l.i.L.s.notification:New I/O server worker #2-1] Link added: Link [src=00:00:00:00:00:00:00:06 outPort=5, dst=00:00:00:00:00:00:00:04, inPort=7]
+21:04:23.693 INFO [n.f.l.i.LinkDiscoveryManager:New I/O server worker #2-3] Inter-switch link detected: Link [src=00:00:00:00:00:00:00:04 outPort=7, dst=00:00:00:00:00:00:00:06, inPort=5]
+21:04:23.693 WARN [n.f.l.i.L.s.notification:New I/O server worker #2-3] Link added: Link [src=00:00:00:00:00:00:00:04 outPort=7, dst=00:00:00:00:00:00:00:06, inPort=5]
+21:04:24.323 INFO [n.f.c.i.OFChannelHandler:New I/O server worker #2-4] New switch connection from /192.168.56.101:38942
+21:04:24.348 INFO [n.f.c.i.OFChannelHandler:New I/O server worker #2-4] Switch OFSwitchBase [/192.168.56.101:38942 DPID[00:00:00:00:00:00:00:07]] bound to class class net.floodlightcontroller.core.internal.OFSwitchImpl, writeThrottle=false, description Switch Desc - Vendor: Nicira, Inc.  Model: Open vSwitch  Make: None  Version: 2.0.2  S/N: None
+21:04:24.362 INFO [n.f.c.OFSwitchBase:New I/O server worker #2-4] Clearing all flows on switch OFSwitchBase [/192.168.56.101:38942 DPID[00:00:00:00:00:00:00:07]]
+21:04:24.363 WARN [n.f.c.i.C.s.notification:main] Switch 00:00:00:00:00:00:00:07 connected.
+21:04:24.365 INFO [n.f.l.i.LinkDiscoveryManager:New I/O server worker #2-3] Inter-switch link detected: Link [src=00:00:00:00:00:00:00:07 outPort=6, dst=00:00:00:00:00:00:00:06, inPort=7]
+21:04:24.365 WARN [n.f.l.i.L.s.notification:New I/O server worker #2-3] Link added: Link [src=00:00:00:00:00:00:00:07 outPort=6, dst=00:00:00:00:00:00:00:06, inPort=7]
+21:04:24.368 INFO [n.f.l.i.LinkDiscoveryManager:New I/O server worker #2-4] Inter-switch link detected: Link [src=00:00:00:00:00:00:00:07 outPort=5, dst=00:00:00:00:00:00:00:03, inPort=7]
+21:04:24.368 WARN [n.f.l.i.L.s.notification:New I/O server worker #2-4] Link added: Link [src=00:00:00:00:00:00:00:07 outPort=5, dst=00:00:00:00:00:00:00:03, inPort=7]
+21:04:24.369 INFO [n.f.l.i.LinkDiscoveryManager:New I/O server worker #2-4] Inter-switch link detected: Link [src=00:00:00:00:00:00:00:06 outPort=7, dst=00:00:00:00:00:00:00:07, inPort=6]
+21:04:24.369 WARN [n.f.l.i.L.s.notification:New I/O server worker #2-4] Link added: Link [src=00:00:00:00:00:00:00:06 outPort=7, dst=00:00:00:00:00:00:00:07, inPort=6]
+21:04:24.370 INFO [n.f.l.i.LinkDiscoveryManager:New I/O server worker #2-4] Inter-switch link detected: Link [src=00:00:00:00:00:00:00:03 outPort=7, dst=00:00:00:00:00:00:00:07, inPort=5]
+21:04:24.370 WARN [n.f.l.i.L.s.notification:New I/O server worker #2-4] Link added: Link [src=00:00:00:00:00:00:00:03 outPort=7, dst=00:00:00:00:00:00:00:07, inPort=5]
+21:04:25.031 INFO [n.f.c.i.OFChannelHandler:New I/O server worker #2-1] New switch connection from /192.168.56.101:38943
+21:04:25.061 INFO [n.f.c.i.OFChannelHandler:New I/O server worker #2-1] Switch OFSwitchBase [/192.168.56.101:38943 DPID[00:00:00:00:00:00:00:08]] bound to class class net.floodlightcontroller.core.internal.OFSwitchImpl, writeThrottle=false, description Switch Desc - Vendor: Nicira, Inc.  Model: Open vSwitch  Make: None  Version: 2.0.2  S/N: None
+21:04:25.062 INFO [n.f.c.OFSwitchBase:New I/O server worker #2-1] Clearing all flows on switch OFSwitchBase [/192.168.56.101:38943 DPID[00:00:00:00:00:00:00:08]]
+21:04:25.062 WARN [n.f.c.i.C.s.notification:main] Switch 00:00:00:00:00:00:00:08 connected.
+21:04:25.065 INFO [n.f.l.i.LinkDiscoveryManager:New I/O server worker #2-4] Inter-switch link detected: Link [src=00:00:00:00:00:00:00:08 outPort=7, dst=00:00:00:00:00:00:00:07, inPort=7]
+21:04:25.065 WARN [n.f.l.i.L.s.notification:New I/O server worker #2-4] Link added: Link [src=00:00:00:00:00:00:00:08 outPort=7, dst=00:00:00:00:00:00:00:07, inPort=7]
+21:04:25.068 INFO [n.f.l.i.LinkDiscoveryManager:New I/O server worker #2-1] Inter-switch link detected: Link [src=00:00:00:00:00:00:00:07 outPort=7, dst=00:00:00:00:00:00:00:08, inPort=7]
+21:04:25.068 WARN [n.f.l.i.L.s.notification:New I/O server worker #2-1] Link added: Link [src=00:00:00:00:00:00:00:07 outPort=7, dst=00:00:00:00:00:00:00:08, inPort=7]
+21:04:25.749 INFO [n.f.c.i.OFChannelHandler:New I/O server worker #2-2] New switch connection from /192.168.56.101:38944
+21:04:25.783 INFO [n.f.c.i.OFChannelHandler:New I/O server worker #2-2] Switch OFSwitchBase [/192.168.56.101:38944 DPID[00:00:00:00:00:00:00:09]] bound to class class net.floodlightcontroller.core.internal.OFSwitchImpl, writeThrottle=false, description Switch Desc - Vendor: Nicira, Inc.  Model: Open vSwitch  Make: None  Version: 2.0.2  S/N: None
+21:04:25.790 INFO [n.f.c.OFSwitchBase:New I/O server worker #2-2] Clearing all flows on switch OFSwitchBase [/192.168.56.101:38944 DPID[00:00:00:00:00:00:00:09]]
+21:04:25.790 WARN [n.f.c.i.C.s.notification:main] Switch 00:00:00:00:00:00:00:09 connected.
+21:04:25.793 INFO [n.f.l.i.LinkDiscoveryManager:New I/O server worker #2-1] Inter-switch link detected: Link [src=00:00:00:00:00:00:00:09 outPort=5, dst=00:00:00:00:00:00:00:08, inPort=8]
+21:04:25.793 WARN [n.f.l.i.L.s.notification:New I/O server worker #2-1] Link added: Link [src=00:00:00:00:00:00:00:09 outPort=5, dst=00:00:00:00:00:00:00:08, inPort=8]
+21:04:25.797 INFO [n.f.l.i.LinkDiscoveryManager:New I/O server worker #2-2] Inter-switch link detected: Link [src=00:00:00:00:00:00:00:08 outPort=8, dst=00:00:00:00:00:00:00:09, inPort=5]
+21:04:25.798 WARN [n.f.l.i.L.s.notification:New I/O server worker #2-2] Link added: Link [src=00:00:00:00:00:00:00:08 outPort=8, dst=00:00:00:00:00:00:00:09, inPort=5]
+21:04:26.528 INFO [n.f.c.i.OFChannelHandler:New I/O server worker #2-3] New switch connection from /192.168.56.101:38945
+21:04:26.558 INFO [n.f.c.i.OFChannelHandler:New I/O server worker #2-3] Switch OFSwitchBase [/192.168.56.101:38945 DPID[00:00:00:00:00:00:00:0a]] bound to class class net.floodlightcontroller.core.internal.OFSwitchImpl, writeThrottle=false, description Switch Desc - Vendor: Nicira, Inc.  Model: Open vSwitch  Make: None  Version: 2.0.2  S/N: None
+21:04:26.561 INFO [n.f.c.OFSwitchBase:New I/O server worker #2-3] Clearing all flows on switch OFSwitchBase [/192.168.56.101:38945 DPID[00:00:00:00:00:00:00:0a]]
+21:04:26.561 WARN [n.f.c.i.C.s.notification:main] Switch 00:00:00:00:00:00:00:0a connected.
+21:04:26.565 INFO [n.f.l.i.LinkDiscoveryManager:New I/O server worker #2-2] Inter-switch link detected: Link [src=00:00:00:00:00:00:00:0a outPort=6, dst=00:00:00:00:00:00:00:09, inPort=7]
+21:04:26.565 WARN [n.f.l.i.L.s.notification:New I/O server worker #2-2] Link added: Link [src=00:00:00:00:00:00:00:0a outPort=6, dst=00:00:00:00:00:00:00:09, inPort=7]
+21:04:26.578 INFO [n.f.l.i.LinkDiscoveryManager:New I/O server worker #2-3] Inter-switch link detected: Link [src=00:00:00:00:00:00:00:0a outPort=5, dst=00:00:00:00:00:00:00:06, inPort=6]
+21:04:26.579 WARN [n.f.l.i.L.s.notification:New I/O server worker #2-3] Link added: Link [src=00:00:00:00:00:00:00:0a outPort=5, dst=00:00:00:00:00:00:00:06, inPort=6]
+21:04:26.609 INFO [n.f.l.i.LinkDiscoveryManager:New I/O server worker #2-3] Inter-switch link detected: Link [src=00:00:00:00:00:00:00:09 outPort=7, dst=00:00:00:00:00:00:00:0a, inPort=6]
+21:04:26.610 WARN [n.f.l.i.L.s.notification:New I/O server worker #2-3] Link added: Link [src=00:00:00:00:00:00:00:09 outPort=7, dst=00:00:00:00:00:00:00:0a, inPort=6]
+21:04:26.620 INFO [n.f.l.i.LinkDiscoveryManager:New I/O server worker #2-3] Inter-switch link detected: Link [src=00:00:00:00:00:00:00:06 outPort=6, dst=00:00:00:00:00:00:00:0a, inPort=5]
+21:04:26.621 WARN [n.f.l.i.L.s.notification:New I/O server worker #2-3] Link added: Link [src=00:00:00:00:00:00:00:06 outPort=6, dst=00:00:00:00:00:00:00:0a, inPort=5]
+21:04:27.293 INFO [n.f.c.i.OFChannelHandler:New I/O server worker #2-4] New switch connection from /192.168.56.101:38946
+21:04:27.315 INFO [n.f.c.i.OFChannelHandler:New I/O server worker #2-4] Switch OFSwitchBase [/192.168.56.101:38946 DPID[00:00:00:00:00:00:00:0b]] bound to class class net.floodlightcontroller.core.internal.OFSwitchImpl, writeThrottle=false, description Switch Desc - Vendor: Nicira, Inc.  Model: Open vSwitch  Make: None  Version: 2.0.2  S/N: None
+21:04:27.316 INFO [n.f.c.OFSwitchBase:New I/O server worker #2-4] Clearing all flows on switch OFSwitchBase [/192.168.56.101:38946 DPID[00:00:00:00:00:00:00:0b]]
+21:04:27.316 WARN [n.f.c.i.C.s.notification:main] Switch 00:00:00:00:00:00:00:0b connected.
+21:04:27.335 INFO [n.f.l.i.LinkDiscoveryManager:New I/O server worker #2-2] Inter-switch link detected: Link [src=00:00:00:00:00:00:00:0b outPort=7, dst=00:00:00:00:00:00:00:09, inPort=6]
+21:04:27.335 WARN [n.f.l.i.L.s.notification:New I/O server worker #2-2] Link added: Link [src=00:00:00:00:00:00:00:0b outPort=7, dst=00:00:00:00:00:00:00:09, inPort=6]
+21:04:27.336 INFO [n.f.l.i.LinkDiscoveryManager:New I/O server worker #2-3] Inter-switch link detected: Link [src=00:00:00:00:00:00:00:0b outPort=8, dst=00:00:00:00:00:00:00:0a, inPort=7]
+21:04:27.336 WARN [n.f.l.i.L.s.notification:New I/O server worker #2-3] Link added: Link [src=00:00:00:00:00:00:00:0b outPort=8, dst=00:00:00:00:00:00:00:0a, inPort=7]
+21:04:27.341 INFO [n.f.l.i.LinkDiscoveryManager:New I/O server worker #2-4] Inter-switch link detected: Link [src=00:00:00:00:00:00:00:09 outPort=6, dst=00:00:00:00:00:00:00:0b, inPort=7]
+21:04:27.341 WARN [n.f.l.i.L.s.notification:New I/O server worker #2-4] Link added: Link [src=00:00:00:00:00:00:00:09 outPort=6, dst=00:00:00:00:00:00:00:0b, inPort=7]
+21:04:27.341 INFO [n.f.l.i.LinkDiscoveryManager:New I/O server worker #2-4] Inter-switch link detected: Link [src=00:00:00:00:00:00:00:0a outPort=7, dst=00:00:00:00:00:00:00:0b, inPort=8]
+21:04:27.341 WARN [n.f.l.i.L.s.notification:New I/O server worker #2-4] Link added: Link [src=00:00:00:00:00:00:00:0a outPort=7, dst=00:00:00:00:00:00:00:0b, inPort=8]
+ARP dstMAC 00:00:00:00:00:37
+IP dstsw 8 dstport 5
+Flowid is: 1
+Flow id seen 1
+Head: [id=00:00:00:00:00:00:00:01, port=5] Tail: [id=00:00:00:00:00:00:00:08, port=5]
+In SUBSHORT
+In SUBSHORT
+In SUBSHORT
+In SUBSHORT
+In SUBSHORT
+subpath added:8
+subpath added:7
+subpath added:3
+subpath added:2
+path of parent: 1 current id: 8
+1
+intact path for layer 4 src: 1 dst: 8 1
+intact path for layer 4 src: 1 dst: 8 2
+intact path for layer 4 src: 1 dst: 8 3
+intact path for layer 4 src: 1 dst: 8 7
+intact path for layer 4 src: 1 dst: 8 8
+
+outside :[0.2, -0.3, 0.1, -0.2]
+ProcessPacketIN # of sws on the path:5
+1
+2
+3
+7
+8
+The path is [[id=00:00:00:00:00:00:00:01, port=5], [id=00:00:00:00:00:00:00:01, port=7], [id=00:00:00:00:00:00:00:02, port=7], [id=00:00:00:00:00:00:00:02, port=8], [id=00:00:00:00:00:00:00:03, port=5], [id=00:00:00:00:00:00:00:03, port=7], [id=00:00:00:00:00:00:00:07, port=5], [id=00:00:00:00:00:00:00:07, port=7], [id=00:00:00:00:00:00:00:08, port=7], [id=00:00:00:00:00:00:00:08, port=5]]
+in place sw_mbs size: 4 path is: 
+1 2 3 7 8 
+mb sw: 1
+factor added: 0.2
+mb sw: 1
+factor added: -0.3
+mb sw: 1
+factor added: 0.1
+mb sw: 1
+factor added: -0.2
+port case : 2
+port case : -3
+port case : 1
+port case : -2
+sw=1,port=7,	734.6483379155211
+sw=2,port=8,	733.7314028956565
+sw=3,port=7,	728.784
+sw=7,port=7,	729.5135135135135
+ARP dstMAC 00:00:00:00:00:38
+IP dstsw 8 dstport 6
+Flowid is: 2
+Flow id seen 2
+Head: [id=00:00:00:00:00:00:00:01, port=6] Tail: [id=00:00:00:00:00:00:00:08, port=6]
+In SUBSHORT
+In SUBSHORT
+In SUBSHORT
+In SUBSHORT
+In SUBSHORT
+subpath added:8
+subpath added:7
+subpath added:3
+subpath added:2
+path of parent: 1 current id: 8
+1
+intact path for layer 4 src: 1 dst: 8 1
+intact path for layer 4 src: 1 dst: 8 2
+intact path for layer 4 src: 1 dst: 8 3
+intact path for layer 4 src: 1 dst: 8 7
+intact path for layer 4 src: 1 dst: 8 8
+
+outside :[0.2, -0.3, 0.1, -0.2]
+ProcessPacketIN # of sws on the path:5
+1
+2
+3
+7
+8
+The path is [[id=00:00:00:00:00:00:00:01, port=6], [id=00:00:00:00:00:00:00:01, port=7], [id=00:00:00:00:00:00:00:02, port=7], [id=00:00:00:00:00:00:00:02, port=8], [id=00:00:00:00:00:00:00:03, port=5], [id=00:00:00:00:00:00:00:03, port=7], [id=00:00:00:00:00:00:00:07, port=5], [id=00:00:00:00:00:00:00:07, port=7], [id=00:00:00:00:00:00:00:08, port=7], [id=00:00:00:00:00:00:00:08, port=6]]
+in place sw_mbs size: 4 path is: 
+1 2 3 7 8 
+mb sw: 1
+factor added: 0.2
+mb sw: 1
+factor added: -0.3
+mb sw: 1
+factor added: 0.1
+mb sw: 1
+factor added: -0.2
+port case : 2
+port case : -3
+port case : 1
+port case : -2
+21:04:41.958 INFO [n.f.l.i.LinkDiscoveryManager:New I/O server worker #2-2] Inter-switch link detected: Link [src=00:00:00:00:00:00:00:05 outPort=1, dst=00:00:00:00:00:00:00:05, inPort=1]
+21:04:41.958 WARN [n.f.l.i.L.s.notification:New I/O server worker #2-2] Link added: Link [src=00:00:00:00:00:00:00:05 outPort=1, dst=00:00:00:00:00:00:00:05, inPort=1]
+21:04:41.958 INFO [n.f.l.i.LinkDiscoveryManager:New I/O server worker #2-2] Inter-switch link detected: Link [src=00:00:00:00:00:00:00:05 outPort=2, dst=00:00:00:00:00:00:00:05, inPort=2]
+21:04:41.958 WARN [n.f.l.i.L.s.notification:New I/O server worker #2-2] Link added: Link [src=00:00:00:00:00:00:00:05 outPort=2, dst=00:00:00:00:00:00:00:05, inPort=2]
+21:04:41.958 INFO [n.f.l.i.LinkDiscoveryManager:New I/O server worker #2-3] Inter-switch link detected: Link [src=00:00:00:00:00:00:00:02 outPort=3, dst=00:00:00:00:00:00:00:02, inPort=3]
+21:04:41.958 WARN [n.f.l.i.L.s.notification:New I/O server worker #2-3] Link added: Link [src=00:00:00:00:00:00:00:02 outPort=3, dst=00:00:00:00:00:00:00:02, inPort=3]
+21:04:41.959 INFO [n.f.l.i.LinkDiscoveryManager:New I/O server worker #2-3] Inter-switch link detected: Link [src=00:00:00:00:00:00:00:02 outPort=1, dst=00:00:00:00:00:00:00:02, inPort=1]
+21:04:41.959 WARN [n.f.l.i.L.s.notification:New I/O server worker #2-3] Link added: Link [src=00:00:00:00:00:00:00:02 outPort=1, dst=00:00:00:00:00:00:00:02, inPort=1]
+21:04:41.960 INFO [n.f.l.i.LinkDiscoveryManager:New I/O server worker #2-3] Inter-switch link detected: Link [src=00:00:00:00:00:00:00:02 outPort=2, dst=00:00:00:00:00:00:00:02, inPort=2]
+21:04:41.960 WARN [n.f.l.i.L.s.notification:New I/O server worker #2-3] Link added: Link [src=00:00:00:00:00:00:00:02 outPort=2, dst=00:00:00:00:00:00:00:02, inPort=2]
+21:04:41.960 INFO [n.f.l.i.LinkDiscoveryManager:New I/O server worker #2-3] Inter-switch link detected: Link [src=00:00:00:00:00:00:00:02 outPort=4, dst=00:00:00:00:00:00:00:02, inPort=4]
+21:04:41.960 WARN [n.f.l.i.L.s.notification:New I/O server worker #2-3] Link added: Link [src=00:00:00:00:00:00:00:02 outPort=4, dst=00:00:00:00:00:00:00:02, inPort=4]
+21:04:41.961 INFO [n.f.l.i.LinkDiscoveryManager:New I/O server worker #2-1] Inter-switch link detected: Link [src=00:00:00:00:00:00:00:08 outPort=1, dst=00:00:00:00:00:00:00:08, inPort=1]
+21:04:41.961 WARN [n.f.l.i.L.s.notification:New I/O server worker #2-1] Link added: Link [src=00:00:00:00:00:00:00:08 outPort=1, dst=00:00:00:00:00:00:00:08, inPort=1]
+21:04:41.961 INFO [n.f.l.i.LinkDiscoveryManager:New I/O server worker #2-1] Inter-switch link detected: Link [src=00:00:00:00:00:00:00:08 outPort=3, dst=00:00:00:00:00:00:00:08, inPort=3]
+21:04:41.962 WARN [n.f.l.i.L.s.notification:New I/O server worker #2-1] Link added: Link [src=00:00:00:00:00:00:00:08 outPort=3, dst=00:00:00:00:00:00:00:08, inPort=3]
+21:04:41.965 INFO [n.f.l.i.LinkDiscoveryManager:New I/O server worker #2-1] Inter-switch link detected: Link [src=00:00:00:00:00:00:00:08 outPort=2, dst=00:00:00:00:00:00:00:08, inPort=2]
+21:04:41.966 WARN [n.f.l.i.L.s.notification:New I/O server worker #2-1] Link added: Link [src=00:00:00:00:00:00:00:08 outPort=2, dst=00:00:00:00:00:00:00:08, inPort=2]
+21:04:41.967 INFO [n.f.l.i.LinkDiscoveryManager:New I/O server worker #2-2] Inter-switch link detected: Link [src=00:00:00:00:00:00:00:09 outPort=4, dst=00:00:00:00:00:00:00:09, inPort=4]
+21:04:41.967 WARN [n.f.l.i.L.s.notification:New I/O server worker #2-2] Link added: Link [src=00:00:00:00:00:00:00:09 outPort=4, dst=00:00:00:00:00:00:00:09, inPort=4]
+21:04:41.967 INFO [n.f.l.i.LinkDiscoveryManager:New I/O server worker #2-2] Inter-switch link detected: Link [src=00:00:00:00:00:00:00:09 outPort=2, dst=00:00:00:00:00:00:00:09, inPort=2]
+21:04:41.967 WARN [n.f.l.i.L.s.notification:New I/O server worker #2-2] Link added: Link [src=00:00:00:00:00:00:00:09 outPort=2, dst=00:00:00:00:00:00:00:09, inPort=2]
+21:04:41.968 INFO [n.f.l.i.LinkDiscoveryManager:New I/O server worker #2-2] Inter-switch link detected: Link [src=00:00:00:00:00:00:00:09 outPort=1, dst=00:00:00:00:00:00:00:09, inPort=1]
+21:04:41.968 WARN [n.f.l.i.L.s.notification:New I/O server worker #2-2] Link added: Link [src=00:00:00:00:00:00:00:09 outPort=1, dst=00:00:00:00:00:00:00:09, inPort=1]
+21:04:41.969 INFO [n.f.l.i.LinkDiscoveryManager:New I/O server worker #2-2] Inter-switch link detected: Link [src=00:00:00:00:00:00:00:01 outPort=4, dst=00:00:00:00:00:00:00:01, inPort=4]
+21:04:41.969 WARN [n.f.l.i.L.s.notification:New I/O server worker #2-2] Link added: Link [src=00:00:00:00:00:00:00:01 outPort=4, dst=00:00:00:00:00:00:00:01, inPort=4]
+21:04:41.969 INFO [n.f.l.i.LinkDiscoveryManager:New I/O server worker #2-1] Inter-switch link detected: Link [src=00:00:00:00:00:00:00:04 outPort=3, dst=00:00:00:00:00:00:00:04, inPort=3]
+21:04:41.969 WARN [n.f.l.i.L.s.notification:New I/O server worker #2-1] Link added: Link [src=00:00:00:00:00:00:00:04 outPort=3, dst=00:00:00:00:00:00:00:04, inPort=3]
+21:04:41.980 INFO [n.f.l.i.LinkDiscoveryManager:New I/O server worker #2-1] Inter-switch link detected: Link [src=00:00:00:00:00:00:00:04 outPort=2, dst=00:00:00:00:00:00:00:04, inPort=2]
+21:04:41.980 WARN [n.f.l.i.L.s.notification:New I/O server worker #2-1] Link added: Link [src=00:00:00:00:00:00:00:04 outPort=2, dst=00:00:00:00:00:00:00:04, inPort=2]
+21:04:41.981 INFO [n.f.l.i.LinkDiscoveryManager:New I/O server worker #2-1] Inter-switch link detected: Link [src=00:00:00:00:00:00:00:04 outPort=4, dst=00:00:00:00:00:00:00:04, inPort=4]
+21:04:41.981 WARN [n.f.l.i.L.s.notification:New I/O server worker #2-1] Link added: Link [src=00:00:00:00:00:00:00:04 outPort=4, dst=00:00:00:00:00:00:00:04, inPort=4]
+21:04:41.981 INFO [n.f.l.i.LinkDiscoveryManager:New I/O server worker #2-1] Inter-switch link detected: Link [src=00:00:00:00:00:00:00:04 outPort=1, dst=00:00:00:00:00:00:00:04, inPort=1]
+21:04:41.981 WARN [n.f.l.i.L.s.notification:New I/O server worker #2-1] Link added: Link [src=00:00:00:00:00:00:00:04 outPort=1, dst=00:00:00:00:00:00:00:04, inPort=1]
+21:04:41.982 INFO [n.f.l.i.LinkDiscoveryManager:New I/O server worker #2-4] Inter-switch link detected: Link [src=00:00:00:00:00:00:00:03 outPort=2, dst=00:00:00:00:00:00:00:03, inPort=2]
+21:04:41.982 WARN [n.f.l.i.L.s.notification:New I/O server worker #2-4] Link added: Link [src=00:00:00:00:00:00:00:03 outPort=2, dst=00:00:00:00:00:00:00:03, inPort=2]
+21:04:41.994 INFO [n.f.l.i.LinkDiscoveryManager:New I/O server worker #2-4] Inter-switch link detected: Link [src=00:00:00:00:00:00:00:03 outPort=3, dst=00:00:00:00:00:00:00:03, inPort=3]
+21:04:41.994 WARN [n.f.l.i.L.s.notification:New I/O server worker #2-4] Link added: Link [src=00:00:00:00:00:00:00:03 outPort=3, dst=00:00:00:00:00:00:00:03, inPort=3]
+21:04:41.997 INFO [n.f.l.i.LinkDiscoveryManager:New I/O server worker #2-4] Inter-switch link detected: Link [src=00:00:00:00:00:00:00:03 outPort=1, dst=00:00:00:00:00:00:00:03, inPort=1]
+21:04:41.997 WARN [n.f.l.i.L.s.notification:New I/O server worker #2-4] Link added: Link [src=00:00:00:00:00:00:00:03 outPort=1, dst=00:00:00:00:00:00:00:03, inPort=1]
+21:04:41.998 INFO [n.f.l.i.LinkDiscoveryManager:New I/O server worker #2-4] Inter-switch link detected: Link [src=00:00:00:00:00:00:00:03 outPort=4, dst=00:00:00:00:00:00:00:03, inPort=4]
+21:04:41.998 WARN [n.f.l.i.L.s.notification:New I/O server worker #2-4] Link added: Link [src=00:00:00:00:00:00:00:03 outPort=4, dst=00:00:00:00:00:00:00:03, inPort=4]
+21:04:41.999 INFO [n.f.l.i.LinkDiscoveryManager:New I/O server worker #2-4] Inter-switch link detected: Link [src=00:00:00:00:00:00:00:07 outPort=1, dst=00:00:00:00:00:00:00:07, inPort=1]
+21:04:41.999 WARN [n.f.l.i.L.s.notification:New I/O server worker #2-4] Link added: Link [src=00:00:00:00:00:00:00:07 outPort=1, dst=00:00:00:00:00:00:00:07, inPort=1]
+21:04:42.000 INFO [n.f.l.i.LinkDiscoveryManager:New I/O server worker #2-4] Inter-switch link detected: Link [src=00:00:00:00:00:00:00:07 outPort=3, dst=00:00:00:00:00:00:00:07, inPort=3]
+21:04:42.000 WARN [n.f.l.i.L.s.notification:New I/O server worker #2-4] Link added: Link [src=00:00:00:00:00:00:00:07 outPort=3, dst=00:00:00:00:00:00:00:07, inPort=3]
+21:04:42.000 INFO [n.f.l.i.LinkDiscoveryManager:New I/O server worker #2-4] Inter-switch link detected: Link [src=00:00:00:00:00:00:00:07 outPort=4, dst=00:00:00:00:00:00:00:07, inPort=4]
+21:04:42.000 WARN [n.f.l.i.L.s.notification:New I/O server worker #2-4] Link added: Link [src=00:00:00:00:00:00:00:07 outPort=4, dst=00:00:00:00:00:00:00:07, inPort=4]
+21:04:42.000 INFO [n.f.l.i.LinkDiscoveryManager:New I/O server worker #2-4] Inter-switch link detected: Link [src=00:00:00:00:00:00:00:07 outPort=2, dst=00:00:00:00:00:00:00:07, inPort=2]
+21:04:42.001 WARN [n.f.l.i.L.s.notification:New I/O server worker #2-4] Link added: Link [src=00:00:00:00:00:00:00:07 outPort=2, dst=00:00:00:00:00:00:00:07, inPort=2]
+21:04:42.001 INFO [n.f.l.i.LinkDiscoveryManager:New I/O server worker #2-4] Inter-switch link detected: Link [src=00:00:00:00:00:00:00:0b outPort=1, dst=00:00:00:00:00:00:00:0b, inPort=1]
+21:04:42.001 WARN [n.f.l.i.L.s.notification:New I/O server worker #2-4] Link added: Link [src=00:00:00:00:00:00:00:0b outPort=1, dst=00:00:00:00:00:00:00:0b, inPort=1]
+21:04:42.002 INFO [n.f.l.i.LinkDiscoveryManager:New I/O server worker #2-4] Inter-switch link detected: Link [src=00:00:00:00:00:00:00:0b outPort=3, dst=00:00:00:00:00:00:00:0b, inPort=3]
+21:04:42.002 WARN [n.f.l.i.L.s.notification:New I/O server worker #2-4] Link added: Link [src=00:00:00:00:00:00:00:0b outPort=3, dst=00:00:00:00:00:00:00:0b, inPort=3]
+21:04:42.012 INFO [n.f.l.i.LinkDiscoveryManager:New I/O server worker #2-4] Inter-switch link detected: Link [src=00:00:00:00:00:00:00:0b outPort=4, dst=00:00:00:00:00:00:00:0b, inPort=4]
+21:04:42.012 WARN [n.f.l.i.L.s.notification:New I/O server worker #2-4] Link added: Link [src=00:00:00:00:00:00:00:0b outPort=4, dst=00:00:00:00:00:00:00:0b, inPort=4]
+21:04:42.013 INFO [n.f.l.i.LinkDiscoveryManager:New I/O server worker #2-4] Inter-switch link detected: Link [src=00:00:00:00:00:00:00:0b outPort=2, dst=00:00:00:00:00:00:00:0b, inPort=2]
+21:04:42.013 WARN [n.f.l.i.L.s.notification:New I/O server worker #2-4] Link added: Link [src=00:00:00:00:00:00:00:0b outPort=2, dst=00:00:00:00:00:00:00:0b, inPort=2]
+21:04:42.014 INFO [n.f.l.i.LinkDiscoveryManager:New I/O server worker #2-3] Inter-switch link detected: Link [src=00:00:00:00:00:00:00:06 outPort=1, dst=00:00:00:00:00:00:00:06, inPort=1]
+21:04:42.014 WARN [n.f.l.i.L.s.notification:New I/O server worker #2-3] Link added: Link [src=00:00:00:00:00:00:00:06 outPort=1, dst=00:00:00:00:00:00:00:06, inPort=1]
+21:04:42.017 INFO [n.f.l.i.LinkDiscoveryManager:New I/O server worker #2-3] Inter-switch link detected: Link [src=00:00:00:00:00:00:00:06 outPort=4, dst=00:00:00:00:00:00:00:06, inPort=4]
+21:04:42.017 WARN [n.f.l.i.L.s.notification:New I/O server worker #2-3] Link added: Link [src=00:00:00:00:00:00:00:06 outPort=4, dst=00:00:00:00:00:00:00:06, inPort=4]
+21:04:42.018 INFO [n.f.l.i.LinkDiscoveryManager:New I/O server worker #2-3] Inter-switch link detected: Link [src=00:00:00:00:00:00:00:06 outPort=2, dst=00:00:00:00:00:00:00:06, inPort=2]
+21:04:42.018 WARN [n.f.l.i.L.s.notification:New I/O server worker #2-3] Link added: Link [src=00:00:00:00:00:00:00:06 outPort=2, dst=00:00:00:00:00:00:00:06, inPort=2]
+21:04:42.019 INFO [n.f.l.i.LinkDiscoveryManager:New I/O server worker #2-3] Inter-switch link detected: Link [src=00:00:00:00:00:00:00:06 outPort=3, dst=00:00:00:00:00:00:00:06, inPort=3]
+21:04:42.019 WARN [n.f.l.i.L.s.notification:New I/O server worker #2-3] Link added: Link [src=00:00:00:00:00:00:00:06 outPort=3, dst=00:00:00:00:00:00:00:06, inPort=3]
+21:04:42.022 INFO [n.f.l.i.LinkDiscoveryManager:New I/O server worker #2-3] Inter-switch link detected: Link [src=00:00:00:00:00:00:00:0a outPort=4, dst=00:00:00:00:00:00:00:0a, inPort=4]
+21:04:42.022 WARN [n.f.l.i.L.s.notification:New I/O server worker #2-3] Link added: Link [src=00:00:00:00:00:00:00:0a outPort=4, dst=00:00:00:00:00:00:00:0a, inPort=4]
+21:04:42.023 INFO [n.f.l.i.LinkDiscoveryManager:New I/O server worker #2-3] Inter-switch link detected: Link [src=00:00:00:00:00:00:00:0a outPort=3, dst=00:00:00:00:00:00:00:0a, inPort=3]
+21:04:42.023 WARN [n.f.l.i.L.s.notification:New I/O server worker #2-3] Link added: Link [src=00:00:00:00:00:00:00:0a outPort=3, dst=00:00:00:00:00:00:00:0a, inPort=3]
+21:04:42.023 INFO [n.f.l.i.LinkDiscoveryManager:New I/O server worker #2-3] Inter-switch link detected: Link [src=00:00:00:00:00:00:00:0a outPort=2, dst=00:00:00:00:00:00:00:0a, inPort=2]
+21:04:42.023 WARN [n.f.l.i.L.s.notification:New I/O server worker #2-3] Link added: Link [src=00:00:00:00:00:00:00:0a outPort=2, dst=00:00:00:00:00:00:00:0a, inPort=2]
+21:04:42.027 INFO [n.f.l.i.LinkDiscoveryManager:New I/O server worker #2-2] Inter-switch link detected: Link [src=00:00:00:00:00:00:00:05 outPort=3, dst=00:00:00:00:00:00:00:05, inPort=3]
+21:04:42.027 WARN [n.f.l.i.L.s.notification:New I/O server worker #2-2] Link added: Link [src=00:00:00:00:00:00:00:05 outPort=3, dst=00:00:00:00:00:00:00:05, inPort=3]
+21:04:42.032 INFO [n.f.l.i.LinkDiscoveryManager:New I/O server worker #2-1] Inter-switch link detected: Link [src=00:00:00:00:00:00:00:08 outPort=4, dst=00:00:00:00:00:00:00:08, inPort=4]
+21:04:42.032 WARN [n.f.l.i.L.s.notification:New I/O server worker #2-1] Link added: Link [src=00:00:00:00:00:00:00:08 outPort=4, dst=00:00:00:00:00:00:00:08, inPort=4]
+21:04:42.033 INFO [n.f.l.i.LinkDiscoveryManager:New I/O server worker #2-2] Inter-switch link detected: Link [src=00:00:00:00:00:00:00:09 outPort=3, dst=00:00:00:00:00:00:00:09, inPort=3]
+21:04:42.033 WARN [n.f.l.i.L.s.notification:New I/O server worker #2-2] Link added: Link [src=00:00:00:00:00:00:00:09 outPort=3, dst=00:00:00:00:00:00:00:09, inPort=3]
+21:04:42.033 INFO [n.f.l.i.LinkDiscoveryManager:New I/O server worker #2-2] Inter-switch link detected: Link [src=00:00:00:00:00:00:00:01 outPort=2, dst=00:00:00:00:00:00:00:01, inPort=2]
+21:04:42.033 WARN [n.f.l.i.L.s.notification:New I/O server worker #2-2] Link added: Link [src=00:00:00:00:00:00:00:01 outPort=2, dst=00:00:00:00:00:00:00:01, inPort=2]
+21:04:42.034 INFO [n.f.l.i.LinkDiscoveryManager:New I/O server worker #2-2] Inter-switch link detected: Link [src=00:00:00:00:00:00:00:01 outPort=1, dst=00:00:00:00:00:00:00:01, inPort=1]
+21:04:42.034 WARN [n.f.l.i.L.s.notification:New I/O server worker #2-2] Link added: Link [src=00:00:00:00:00:00:00:01 outPort=1, dst=00:00:00:00:00:00:00:01, inPort=1]
+21:04:42.049 INFO [n.f.l.i.LinkDiscoveryManager:New I/O server worker #2-2] Inter-switch link detected: Link [src=00:00:00:00:00:00:00:01 outPort=3, dst=00:00:00:00:00:00:00:01, inPort=3]
+21:04:42.049 WARN [n.f.l.i.L.s.notification:New I/O server worker #2-2] Link added: Link [src=00:00:00:00:00:00:00:01 outPort=3, dst=00:00:00:00:00:00:00:01, inPort=3]
+21:04:42.101 INFO [n.f.l.i.LinkDiscoveryManager:New I/O server worker #2-2] Inter-switch link detected: Link [src=00:00:00:00:00:00:00:05 outPort=4, dst=00:00:00:00:00:00:00:05, inPort=4]
+21:04:42.101 WARN [n.f.l.i.L.s.notification:New I/O server worker #2-2] Link added: Link [src=00:00:00:00:00:00:00:05 outPort=4, dst=00:00:00:00:00:00:00:05, inPort=4]
+21:04:42.122 INFO [n.f.l.i.LinkDiscoveryManager:New I/O server worker #2-3] Inter-switch link detected: Link [src=00:00:00:00:00:00:00:0a outPort=1, dst=00:00:00:00:00:00:00:0a, inPort=1]
+21:04:42.122 WARN [n.f.l.i.L.s.notification:New I/O server worker #2-3] Link added: Link [src=00:00:00:00:00:00:00:0a outPort=1, dst=00:00:00:00:00:00:00:0a, inPort=1]
+sw=1,port=7,	1412.8814574494634
+sw=2,port=8,	1413.9400599400599
+sw=3,port=7,	1413.9400599400599
+sw=7,port=7,	1415.7079269817455
+ARP dstMAC 00:00:00:00:00:11
+IP dstsw 2 dstport 5
+Flowid is: 3
+Flow id seen 3
+Head: [id=00:00:00:00:00:00:00:0b, port=5] Tail: [id=00:00:00:00:00:00:00:02, port=5]
+In SUBSHORT
+subpath added:9
+intact path for layer 0 src: 11 dst: 9 11
+intact path for layer 0 src: 11 dst: 9 9
+In SUBSHORT
+In SUBSHORT
+In SUBSHORT
+In SUBSHORT
+subpath added:2
+subpath added:3
+subpath added:7
+subpath added:8
+path of parent: 9 current id: 2
+11
+9
+intact path for layer 4 src: 9 dst: 2 11
+intact path for layer 4 src: 9 dst: 2 9
+intact path for layer 4 src: 9 dst: 2 8
+intact path for layer 4 src: 9 dst: 2 7
+intact path for layer 4 src: 9 dst: 2 3
+intact path for layer 4 src: 9 dst: 2 2
+
+outside :[0.2, -0.3, 0.1, -0.2]
+ProcessPacketIN # of sws on the path:6
+11
+9
+8
+7
+3
+2
+The path is [[id=00:00:00:00:00:00:00:0b, port=5], [id=00:00:00:00:00:00:00:0b, port=7], [id=00:00:00:00:00:00:00:09, port=6], [id=00:00:00:00:00:00:00:09, port=5], [id=00:00:00:00:00:00:00:08, port=8], [id=00:00:00:00:00:00:00:08, port=7], [id=00:00:00:00:00:00:00:07, port=7], [id=00:00:00:00:00:00:00:07, port=5], [id=00:00:00:00:00:00:00:03, port=7], [id=00:00:00:00:00:00:00:03, port=5], [id=00:00:00:00:00:00:00:02, port=8], [id=00:00:00:00:00:00:00:02, port=5]]
+in place sw_mbs size: 4 path is: 
+11 9 8 7 3 2 
+mb sw: 9
+factor added: 0.2
+mb sw: 9
+factor added: -0.3
+mb sw: 9
+factor added: 0.1
+mb sw: 9
+factor added: -0.2
+port case : 2
+port case : -3
+port case : 1
+port case : -2
+sw=1,port=7,	1502.9098196392786
+sw=2,port=8,	1508.9699398797595
+sw=3,port=7,	1507.8367959949937
+sw=3,port=5,	678.2237797246559
+sw=7,port=7,	1505.5756060984754
+sw=7,port=5,	677.2066983254186
+sw=8,port=7,	676.8683487384461
+sw=9,port=5,	676.5303370786517
+sw=11,port=7,	943.488
+ARP dstMAC 00:00:00:00:00:12
+IP dstsw 2 dstport 6
+Flowid is: 4
+Flow id seen 4
+Head: [id=00:00:00:00:00:00:00:0b, port=6] Tail: [id=00:00:00:00:00:00:00:02, port=6]
+In SUBSHORT
+subpath added:10
+intact path for layer 0 src: 11 dst: 10 11
+intact path for layer 0 src: 11 dst: 10 10
+In SUBSHORT
+In SUBSHORT
+In SUBSHORT
+In SUBSHORT
+subpath added:2
+subpath added:3
+subpath added:4
+subpath added:6
+path of parent: 10 current id: 2
+11
+10
+intact path for layer 4 src: 10 dst: 2 11
+intact path for layer 4 src: 10 dst: 2 10
+intact path for layer 4 src: 10 dst: 2 6
+intact path for layer 4 src: 10 dst: 2 4
+intact path for layer 4 src: 10 dst: 2 3
+intact path for layer 4 src: 10 dst: 2 2
+
+outside :[0.2, -0.3, 0.1, -0.2]
+ProcessPacketIN # of sws on the path:6
+11
+10
+6
+4
+3
+2
+The path is [[id=00:00:00:00:00:00:00:0b, port=6], [id=00:00:00:00:00:00:00:0b, port=8], [id=00:00:00:00:00:00:00:0a, port=7], [id=00:00:00:00:00:00:00:0a, port=5], [id=00:00:00:00:00:00:00:06, port=6], [id=00:00:00:00:00:00:00:06, port=5], [id=00:00:00:00:00:00:00:04, port=7], [id=00:00:00:00:00:00:00:04, port=5], [id=00:00:00:00:00:00:00:03, port=6], [id=00:00:00:00:00:00:00:03, port=5], [id=00:00:00:00:00:00:00:02, port=8], [id=00:00:00:00:00:00:00:02, port=6]]
+in place sw_mbs size: 4 path is: 
+11 10 6 4 3 2 
+mb sw: 10
+factor added: 0.2
+mb sw: 10
+factor added: -0.3
+mb sw: 10
+factor added: 0.1
+mb sw: 10
+factor added: -0.2
+port case : 2
+port case : -3
+port case : 1
+port case : -2
+sw=1,port=7,	1527.12
+sw=2,port=8,	1521.072
+sw=3,port=7,	1519.1730337078652
+sw=3,port=5,	1392.323595505618
+sw=4,port=5,	682.9118161378966
+sw=6,port=5,	682.4003994008987
+sw=7,port=7,	1518.7938092860709
+sw=7,port=5,	709.5756365451822
+sw=8,port=7,	709.7528089887641
+sw=9,port=5,	710.2848575712144
+sw=10,port=5,	695.3461634591353
+sw=11,port=8,	940.228942764309
+sw=11,port=7,	997.6705823544114
+sw=1,port=7,	1368.161797752809
+sw=2,port=8,	1368.8453659755185
+sw=3,port=7,	1370.5572786393197
+sw=3,port=5,	1346.0165041260316
+sw=4,port=5,	725.9414853713429
+sw=6,port=5,	725.5786053486628
+sw=7,port=7,	1368.5034965034965
+sw=7,port=5,	619.3006993006993
+sw=8,port=7,	619.6101949025488
+sw=9,port=5,	619.4554084436672
+sw=10,port=5,	722.013986013986
+sw=11,port=8,	1024.1118881118882
+sw=11,port=7,	1027.1328671328672
+sw=1,port=7,	1523.0978723404255
+sw=2,port=8,	1521.9549774887444
+sw=3,port=7,	1521.9549774887444
+sw=3,port=5,	1349.838378784088
+sw=4,port=5,	638.3455863965992
+sw=6,port=5,	637.8670664667666
+sw=7,port=7,	1521.194
+sw=7,port=5,	716.81
+sw=8,port=7,	716.989247311828
+sw=9,port=5,	716.81
+sw=10,port=5,	628.9567608097975
+sw=11,port=8,	1021.7231384307846
+sw=11,port=7,	1015.6781609195402
+sw=1,port=7,	1401.2556053811659
+sw=2,port=8,	1402.303664921466
+sw=3,port=7,	1403.3532934131736
+sw=3,port=5,	1469.748502994012
+sw=4,port=5,	713.1291531351486
+sw=6,port=5,	714.9151014274981
+sw=7,port=7,	1408.9779559118238
+sw=7,port=5,	754.4849699398798
+sw=8,port=7,	756.1890472618154
+sw=9,port=5,	756.3781890945472
+sw=10,port=5,	713.8424606151538
+sw=11,port=8,	1011.7752808988764
+sw=11,port=7,	1029.896629213483
+sw=1,port=7,	1503.6631578947367
+sw=2,port=8,	1503.6631578947367
+sw=3,port=7,	1503.6631578947367
+sw=3,port=5,	1449.0947368421052
+sw=4,port=5,	706.1809070408419
+sw=6,port=5,	705.2972972972973
+sw=7,port=7,	1501.4054054054054
+sw=7,port=5,	744.6486486486486
+sw=8,port=7,	743.2957110609481
+sw=9,port=5,	743.4821876567988
+sw=10,port=5,	707.5992970123023
+sw=11,port=8,	1048.5226130653266
+sw=11,port=7,	1021.1698492462311
+ARP dstMAC 00:00:00:00:00:38
+sw=1,port=7,	1477.3113113113113
+sw=2,port=8,	1477.3113113113113
+sw=3,port=7,	1475.096451774113
+sw=3,port=5,	1384.4217891054473
+sw=4,port=5,	677.1594202898551
+sw=6,port=5,	676.3144497130022
+sw=7,port=7,	1473.2558023458946
+sw=7,port=5,	703.4829049163963
+sw=8,port=7,	703.4829049163963
+sw=9,port=5,	702.6061814556331
+sw=10,port=5,	674.9668742216687
+sw=11,port=8,	1013.6518703241895
+sw=11,port=7,	1013.6518703241895
+sw=1,port=7,	1415.5858964741185
+sw=2,port=8,	1416.294220665499
+sw=3,port=7,	1416.6486486486488
+sw=3,port=5,	1371.2432432432433
+sw=4,port=5,	687.3071339173968
+sw=6,port=5,	686.9632224168126
+sw=7,port=7,	1414.7192019950126
+sw=7,port=5,	687.5811518324607
+sw=8,port=7,	686.8961394769614
+sw=9,port=5,	687.4097706879362
+sw=10,port=5,	684.9069593414816
+sw=11,port=8,	1019.5630922693267
+sw=11,port=7,	1016.5466334164588
+sw=1,port=7,	1478.3664083979006
+sw=2,port=8,	1475.416313295086
+sw=3,port=7,	1477.2587412587413
+sw=3,port=5,	1525.5944055944055
+sw=4,port=5,	728.0559440559441
+sw=6,port=5,	729.1485742871436
+sw=7,port=7,	1479.7813988468288
+sw=7,port=5,	794.6720160481444
+sw=8,port=7,	795.0707476166583
+sw=9,port=5,	795.0707476166583
+sw=10,port=5,	731.1602708803612
+sw=11,port=8,	1021.6421052631579
+sw=11,port=7,	1033.7684210526315
+ARP dstMAC 00:00:00:00:00:37
+ARP dstMAC 00:00:00:00:00:11
+sw=1,port=7,	1515.024
+sw=2,port=8,	1516.5405405405406
+sw=3,port=7,	1512.0
+sw=3,port=5,	1424.4790419161677
+sw=4,port=5,	744.8795811518324
+sw=6,port=5,	745.437125748503
+sw=7,port=7,	1512.7548676984522
+sw=7,port=5,	679.3809286070893
+sw=8,port=7,	678.8725367922175
+sw=9,port=5,	678.8725367922175
+sw=10,port=5,	745.2511848341233
+sw=11,port=8,	1023.6005991013479
+sw=11,port=7,	1035.678482276585
+sw=1,port=7,	1388.138
+sw=2,port=8,	1388.138
+sw=3,port=7,	1390.5715001252192
+sw=3,port=5,	1411.7766090658652
+sw=4,port=5,	669.7655310621243
+sw=6,port=5,	669.0950950950951
+sw=7,port=7,	1389.5275275275276
+sw=7,port=5,	741.7437437437437
+sw=8,port=7,	742.3010267968946
+sw=9,port=5,	742.8591478696742
+sw=10,port=5,	670.1012531328321
+sw=11,port=8,	1028.085234394585
+sw=11,port=7,	994.4802005012531
+sw=1,port=7,	1463.2501874531367
+sw=2,port=8,	1463.616
+sw=3,port=7,	1463.2501874531367
+sw=3,port=5,	1469.2966758310422
+sw=4,port=5,	738.0405101275319
+sw=6,port=5,	738.5945945945946
+sw=7,port=7,	1465.4478097622027
+sw=7,port=5,	738.7794743429287
+sw=8,port=7,	739.1495116453794
+sw=9,port=5,	738.4098073555166
+sw=10,port=5,	738.5945945945946
+sw=11,port=8,	1037.232
+sw=11,port=7,	1037.491372843211
+sw=1,port=7,	1560.774193548387
+sw=2,port=8,	1560.384
+sw=3,port=7,	1562.3369211514394
+sw=3,port=5,	1583.5314142678349
+sw=4,port=5,	771.12
+sw=6,port=5,	770.1573033707865
+sw=7,port=7,	1558.8251748251748
+sw=7,port=5,	803.5804195804196
+sw=8,port=7,	803.7811641269049
+sw=9,port=5,	804.384
+sw=10,port=5,	764.810314902058
+sw=11,port=8,	998.504709965295
+sw=11,port=7,	1016.4957858205255
+ARP dstMAC 00:00:00:00:00:12
+sw=1,port=7,	1466.2734316420895
+sw=2,port=8,	1465.9070464767617
+sw=3,port=7,	1465.540844366725
+sw=3,port=5,	1477.6277791656257
+sw=4,port=5,	769.7728974294984
+sw=6,port=5,	770.9272681829542
+sw=7,port=7,	1465.1748251748252
+sw=7,port=5,	712.951048951049
+sw=8,port=7,	712.7730337078651
+sw=9,port=5,	712.5951073389915
+sw=10,port=5,	775.9698113207547
+sw=11,port=8,	1056.4590989176945
+sw=11,port=7,	1025.7554101660796
+ARP dstMAC 00:00:00:00:00:38
+sw=1,port=7,	1352.188047011753
+sw=2,port=8,	1351.85
+sw=3,port=7,	1352.188047011753
+sw=3,port=5,	1349.1632908227057
+sw=4,port=5,	710.9397349337335
+sw=6,port=5,	710.9397349337335
+sw=7,port=7,	1352.188047011753
+sw=7,port=5,	632.2960740185047
+sw=8,port=7,	632.4542271135567
+sw=9,port=5,	632.6124593445084
+sw=10,port=5,	710.4067966016992
+sw=11,port=8,	1025.258
+sw=11,port=7,	1016.4401100275069
+ARP dstMAC 00:00:00:00:00:11
+sw=1,port=7,	1433.376
+sw=2,port=8,	1434.0930465232616
+sw=3,port=7,	1439.7839459864965
+sw=3,port=5,	1364.165041260315
+sw=4,port=5,	648.5953395139063
+sw=6,port=5,	648.2704733283246
+sw=7,port=7,	1442.308617234469
+sw=7,port=5,	718.124248496994
+sw=8,port=7,	717.4054054054054
+sw=9,port=5,	716.867216804201
+sw=10,port=5,	647.9459324155195
+sw=11,port=8,	1020.3634543178973
+sw=11,port=7,	1029.4468085106382
+sw=1,port=7,	1482.5601597603595
+sw=2,port=8,	1484.0419790104947
+sw=3,port=7,	1476.8898876404494
+sw=3,port=5,	1461.7887640449437
+sw=4,port=5,	706.9090909090909
+sw=6,port=5,	707.0856857356982
+sw=7,port=7,	1476.8898876404494
+sw=7,port=5,	755.056179775281
+sw=8,port=7,	754.6793112053906
+sw=9,port=5,	755.2447552447552
+sw=10,port=5,	706.7325842696629
+sw=11,port=8,	999.6943820224719
+sw=11,port=7,	1014.7955056179775
+sw=1,port=7,	1450.672008012018
+sw=2,port=8,	1447.7721139430284
+sw=3,port=7,	1451.1572106973256
+sw=3,port=5,	1478.3664083979006
+sw=4,port=5,	758.2657342657343
+sw=6,port=5,	758.4551586310267
+sw=7,port=7,	1450.7946026986506
+sw=7,port=5,	719.3523238380809
+sw=8,port=7,	719.5321169707573
+sw=9,port=5,	719.1726205345991
+sw=10,port=5,	759.2138034508628
+sw=11,port=8,	1033.9495126218446
+sw=11,port=7,	1021.6011994002998
+ARP dstMAC 00:00:00:00:00:12
+ARP dstMAC 00:00:00:00:00:37
+sw=1,port=7,	1455.0297574393599
+sw=2,port=8,	1457.5811623246493
+sw=3,port=7,	1456.3752194632557
+sw=3,port=5,	1389.6302984700276
+sw=4,port=5,	743.2316950852558
+sw=6,port=5,	742.8591478696742
+sw=7,port=7,	1456.3752194632557
+sw=7,port=5,	646.3345874090795
+sw=8,port=7,	646.9836806427317
+sw=9,port=5,	646.6589711417816
+sw=10,port=5,	743.2316950852558
+sw=11,port=8,	1013.685900652283
+sw=11,port=7,	1029.1171894604768
+sw=1,port=7,	1484.412896775806
+sw=2,port=8,	1482.5601597603595
+sw=3,port=7,	1476.6623570363004
+sw=3,port=5,	1398.468423669816
+sw=4,port=5,	713.2998258273202
+sw=6,port=5,	713.4773519163763
+sw=7,port=7,	1476.6623570363004
+sw=7,port=5,	685.700646444555
+sw=8,port=7,	685.3598409542743
+sw=9,port=5,	686.2124906693207
+sw=10,port=5,	713.6549663928305
+sw=11,port=8,	1024.0637450199204
+sw=11,port=7,	1002.7303958177745
+sw=1,port=7,	1424.6601650412604
+sw=2,port=8,	1426.4436654982474
+sw=3,port=7,	1435.375815353738
+sw=3,port=5,	1417.168088309082
+sw=4,port=5,	728.4918444165621
+sw=6,port=5,	727.9438314944834
+sw=7,port=7,	1435.015801354402
+sw=7,port=5,	688.686230248307
+sw=8,port=7,	688.686230248307
+sw=9,port=5,	688.3409375783405
+sw=10,port=5,	727.7613436951617
+sw=11,port=8,	1020.8745304282494
+sw=11,port=7,	1024.1603206412826
+ARP dstMAC 00:00:00:00:00:11
+sw=1,port=7,	1436.3009247688078
+sw=2,port=8,	1435.086913086913
+sw=3,port=7,	1430.474
+sw=3,port=5,	1481.882
+sw=4,port=5,	777.0957260684829
+sw=6,port=5,	777.29
+sw=7,port=7,	1431.5476607455591
+sw=7,port=5,	705.2429321991493
+sw=8,port=7,	705.5959949937421
+sw=9,port=5,	705.7726589884827
+sw=10,port=5,	777.8734050537903
+sw=11,port=8,	1032.5967459324156
+sw=11,port=7,	1011.40225281602
+ARP dstMAC 00:00:00:00:00:38
+sw=1,port=7,	1508.976
+sw=2,port=8,	1508.5988502874281
+sw=3,port=7,	1509.7308654327164
+sw=3,port=5,	1503.67983991996
+sw=4,port=5,	756.3781890945472
+sw=6,port=5,	756.5674255691769
+sw=7,port=7,	1510.108581436077
+sw=7,port=5,	747.4886164623467
+sw=8,port=7,	746.7413146713321
+sw=9,port=5,	746.7413146713321
+sw=10,port=5,	756.5674255691769
+sw=11,port=8,	1023.1351351351351
+sw=11,port=7,	1029.1891891891892
+sw=1,port=7,	1442.9468430247068
+sw=2,port=8,	1444.027972027972
+sw=3,port=7,	1444.027972027972
+sw=3,port=5,	1431.944055944056
+sw=4,port=5,	709.5756365451822
+sw=6,port=5,	710.2848575712144
+sw=7,port=7,	1444.7496251874063
+sw=7,port=5,	722.3748125937032
+sw=8,port=7,	723.0975487743872
+sw=9,port=5,	723.2784588441331
+sw=10,port=5,	710.9954977488744
+sw=11,port=8,	1026.876404494382
+sw=11,port=7,	1026.876404494382
+ARP dstMAC 00:00:00:00:00:12
+sw=1,port=7,	1530.1803607214429
+sw=2,port=8,	1530.563768479078
+sw=3,port=7,	1528.6486486486488
+sw=3,port=5,	1422.7027027027027
+sw=4,port=5,	693.3627033792241
+sw=6,port=5,	691.8041958041958
+sw=7,port=7,	1537.2943820224718
+sw=7,port=5,	730.8943820224719
+sw=8,port=7,	730.8943820224719
+sw=9,port=5,	730.7119321018472
+sw=10,port=5,	691.6314606741573
+sw=11,port=8,	1022.6233116558279
+sw=11,port=7,	1010.5212606303152
+sw=1,port=7,	1269.884528867783
+sw=2,port=8,	1268.616229712859
+sw=3,port=7,	1269.884528867783
+sw=3,port=5,	1427.0932266933266
+sw=4,port=5,	737.978
+sw=6,port=5,	738.9016270337922
+sw=7,port=7,	1259.050287715787
+sw=7,port=5,	687.0853139854892
+sw=8,port=7,	687.0853139854892
+sw=9,port=5,	687.0853139854892
+sw=10,port=5,	737.0566791510612
+sw=11,port=8,	1023.4669328674819
+sw=11,port=7,	1029.504367357125
+sw=1,port=7,	1472.688
+sw=2,port=8,	1473.7933450087567
+sw=3,port=7,	1472.319920019995
+sw=3,port=5,	1514.6453386653336
+sw=4,port=5,	740.6948262934267
+sw=6,port=5,	740.5097451274363
+sw=7,port=7,	1472.319920019995
+sw=7,port=5,	773.950512371907
+sw=8,port=7,	773.950512371907
+sw=9,port=5,	773.950512371907
+sw=10,port=5,	747.6756756756756
+sw=11,port=8,	1023.1351351351351
+sw=11,port=7,	1020.1081081081081
+sw=1,port=7,	1433.376
+sw=2,port=8,	1432.6596701649175
+sw=3,port=7,	1433.734433608402
+sw=3,port=5,	1554.7246811702926
+sw=4,port=5,	740.5097451274363
+sw=6,port=5,	740.5097451274363
+sw=7,port=7,	1432.6596701649175
+sw=7,port=5,	813.0494752623688
+sw=8,port=7,	813.0494752623688
+sw=9,port=5,	812.0349388570003
+sw=10,port=5,	733.914606741573
+sw=11,port=8,	1032.9168539325842
+sw=11,port=7,	1005.7348314606742
+ARP dstMAC 00:00:00:00:00:11
+ARP dstMAC 00:00:00:00:00:37
+sw=1,port=7,	1385.338334583646
+sw=2,port=8,	1386.3783783783783
+sw=3,port=7,	1384.6458385403648
+sw=3,port=5,	1572.0869782554362
+sw=4,port=5,	889.278319579895
+sw=6,port=5,	899.4772158237356
+sw=7,port=7,	1387.419984973704
+sw=7,port=5,	684.6220886551465
+sw=8,port=7,	684.450676014021
+sw=9,port=5,	685.3085986462772
+sw=10,port=5,	900.6046628227626
+sw=11,port=8,	1022.4108352144469
+sw=11,port=7,	1028.4785553047404
+ARP dstMAC 00:00:00:00:00:12
+sw=1,port=7,	1457.3256685828542
+sw=2,port=8,	1456.2337662337663
+sw=3,port=7,	1464.1040260065017
+sw=3,port=5,	1512.5001250312578
+sw=4,port=5,	770.6640019985011
+sw=6,port=5,	760.2693266832918
+sw=7,port=7,	1460.8163672654691
+sw=7,port=5,	739.5229540918164
+sw=8,port=7,	739.707511854255
+sw=9,port=5,	739.3384884010975
+sw=10,port=5,	760.4589673235221
+sw=11,port=8,	1021.9367057064541
+sw=11,port=7,	1018.922501868926
+ARP dstMAC 00:00:00:00:00:38
+sw=1,port=7,	1503.3038259564892
+sw=2,port=8,	1504.4324324324325
+sw=3,port=7,	1498.3783783783783
+sw=3,port=5,	1464.7145359019264
+sw=4,port=5,	714.9151014274981
+sw=6,port=5,	716.3503136762861
+sw=7,port=7,	1511.2413447064725
+sw=7,port=5,	752.5860511791269
+sw=8,port=7,	747.8952879581152
+sw=9,port=5,	747.8952879581152
+sw=10,port=5,	717.738219895288
+sw=11,port=8,	1016.5466334164588
+sw=11,port=7,	1013.530174563591
+sw=1,port=7,	1593.648
+sw=2,port=8,	1594.046511627907
+sw=3,port=7,	1592.8515742128936
+sw=3,port=5,	1508.5988502874281
+sw=4,port=5,	777.168
+sw=6,port=5,	776.1977528089888
+sw=7,port=7,	1582.202695956066
+sw=7,port=5,	730.7119321018472
+sw=8,port=7,	735.1160220994475
+sw=9,port=5,	735.4854271356784
+sw=10,port=5,	775.1897461673788
+sw=11,port=8,	1010.0281690140845
+sw=11,port=7,	1010.0281690140845
+sw=1,port=7,	1372.552861784554
+sw=2,port=8,	1371.5244755244755
+sw=3,port=7,	1371.8670996752435
+sw=3,port=5,	1468.5625780664502
+sw=4,port=5,	754.6793112053906
+sw=6,port=5,	754.6793112053906
+sw=7,port=7,	1370.839740389416
+sw=7,port=5,	712.5951073389915
+sw=8,port=7,	712.951048951049
+sw=9,port=5,	711.884289276808
+sw=10,port=5,	753.5509593820085
+sw=11,port=8,	1030.344209215442
+sw=11,port=7,	1030.344209215442
+sw=1,port=7,	1073.642
+sw=2,port=8,	1069.8973592426507
+sw=3,port=7,	1070.430707876371
+sw=3,port=5,	1332.7318045862412
+sw=4,port=5,	673.2957324681806
+sw=6,port=5,	673.6319600499376
+sw=7,port=7,	1072.301622971286
+sw=7,port=5,	661.5510611735331
+sw=8,port=7,	660.8909952606635
+sw=9,port=5,	662.0469765117441
+sw=10,port=5,	673.8001998001998
+sw=11,port=8,	978.6746566791511
+sw=11,port=7,	1026.998252184769
+ARP dstMAC 00:00:00:00:00:11
+ARP dstMAC 00:00:00:00:00:12
+sw=1,port=7,	1140.048
+sw=2,port=8,	1143.1917773878165
+sw=3,port=7,	1142.6188925081433
+sw=3,port=5,	1178.9887246304183
+sw=4,port=5,	635.9939909864797
+sw=6,port=5,	635.198799699925
+sw=7,port=7,	1140.3330832708177
+sw=7,port=5,	541.4313578394599
+sw=8,port=7,	541.8378378378378
+sw=9,port=5,	541.1607098225444
+sw=10,port=5,	635.04
+sw=11,port=8,	892.7495621716287
+sw=11,port=7,	1025.9054290718038
+sw=1,port=7,	1517.6685828542863
+sw=2,port=8,	1517.289355322339
+sw=3,port=7,	1518.807403701851
+sw=3,port=5,	1403.8379189594798
+sw=4,port=5,	711.3513513513514
+sw=6,port=5,	714.0210105052527
+sw=7,port=7,	1524.47711927982
+sw=7,port=5,	692.669167291823
+sw=8,port=7,	691.2862490641378
+sw=9,port=5,	691.9770172370722
+sw=10,port=5,	713.664
+sw=11,port=8,	1028.417104276069
+sw=11,port=7,	1025.3923480870217
+sw=1,port=7,	1430.8317079269818
+sw=2,port=8,	1431.905905905906
+sw=3,port=7,	1431.5476607455591
+sw=3,port=5,	1516.283212409307
+sw=4,port=5,	759.5257628814408
+sw=6,port=5,	757.0683354192741
+sw=7,port=7,	1425.851851851852
+sw=7,port=5,	756.8788788788788
+sw=8,port=7,	758.3971915747242
+sw=9,port=5,	758.0170426065163
+sw=10,port=5,	758.0170426065163
+sw=11,port=8,	1024.539213229767
+sw=11,port=7,	1018.4775745427211
+ARP dstMAC 00:00:00:00:00:37
+ARP dstMAC 00:00:00:00:00:05
+sw=1,port=7,	1403.4868717179295
+sw=2,port=8,	1405.2438657986982
+sw=3,port=7,	1405.595792637115
+sw=3,port=5,	1566.1487603305786
+sw=4,port=5,	735.0157539384846
+sw=6,port=5,	736.1202103681443
+sw=7,port=7,	1406.300175394638
+sw=7,port=5,	830.4445001252819
+sw=8,port=7,	829.4054054054054
+sw=9,port=5,	826.7921882824236
+sw=10,port=5,	735.9359038557836
+sw=11,port=8,	993.610818933133
+sw=11,port=7,	1020.8745304282494
+ARP dstMAC 00:00:00:00:00:38
+ARP dstMAC 00:00:00:00:00:52
+ARP dstMAC 00:00:00:00:00:06
+ARP dstMAC 00:00:00:00:00:51
+sw=1,port=7,	60.38941587618572
+sw=2,port=8,	69.43049663089593
+sw=3,port=7,	66.41177938607437
+sw=3,port=5,	120.74868979286249
+sw=4,port=5,	60.48
+sw=6,port=5,	60.40449438202247
+sw=7,port=7,	66.44494382022472
+sw=7,port=5,	60.40449438202247
+sw=8,port=7,	60.40449438202247
+sw=9,port=5,	57.38426966292135
+sw=10,port=5,	60.41958041958042
+sw=11,port=8,	87.58651685393258
+sw=11,port=7,	88.76504369538077
